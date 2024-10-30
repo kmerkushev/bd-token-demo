@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Black Duck</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="style.css"
+        rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700,800" media="all">
+    <script type="text/javascript">
+        WebFont.load({
+            google: {
+                families: ["Manrope:regular,500,600,700,800"]
+            }
+        });
+    </script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="body" id="body">
+  <header class="body__header header" id="header">
+    <div class="header__inner">
+      <button class="header__open-menu" id="open-menu" aria-label="Open menu"></button>
+      <button class="header__close-menu hidden" id="close-menu" aria-label="Close menu"></button>
+      <nav class="header__menu menu">
+        <div class="menu__top">
+          <ul class="menu__links">
+            <li class="menu__links-item">
+              <a class="menu__link" href="#tokenomics">Tokenomics</a>
+            </li>
+            <li class="menu__links-item">
+              <a class="menu__link" href="#roadmap">Road map</a>
+            </li>
+            <li class="menu__links-item">
+              <a class="menu__link" href="#team">Team</a>
+            </li>
+            <li class="menu__links-item">
+              <a class="menu__link" href="#faq">Faq</a>
+            </li>
+            <li class="menu__links-item">
+              <a class="menu__link" href="#footer">Contacts</a>
+            </li>
+            <li class="menu__links-item">
+              <a class="menu__link menu__link--orange" href="#">Buy $BDUCK</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu__bottom">
+          <div id="menu__socials" class="menu__socials socials">
+            <button>OPEN</button>
+            <a href="https://t.me/b_duck_chat" target="_blank" class="socials__social-link socials__social-link--telegram">
+              <span class="visually-hidden">Telegram Channel</span>
+            </a>
+
+            <a href="https://x.com/BlackDuckOS" target="_blank" class="socials__social-link socials__social-link--x">
+              <span class="visually-hidden">X social network</span>
+            </a>
+
+            <a href="#" target="_blank" class="socials__social-link socials__social-link--discord">
+              <span class="visually-hidden">Telegram Chat</span>
+            </a>
+
+            <a href="#" target="_blank" class="socials__social-link socials__social-link--linkedin">
+              <span class="visually-hidden">LinkedIn</span>
+            </a>
+          </div>
+          <div class="menu__links-bottom">
+            <div id="menu__links--secondary" class="menu__links--secondary">
+              <a href="#body" class="menu__link--secondary">Privacy policy</a>
+              <a href="#body" class="menu__link--secondary">Terms of conditions</a>
+            </div>
+            <p class="menu__copyright">© 2024. Black Duck</p>
+          </div>
+        </div>
+      </nav>
+      <div class="header__bg hidden" id="header__bg"></div>
+    </div>
+  </header>
+
+  <main class="main body__main">
+
+
+    <section class="hero main__hero">
+        <div class="hero__inner">
+            <div class="hero__txt-container">
+              <h1 class="hero__h1">What is Black Duck?</h1>
+              <h2 class="hero__h2">Black Duck are mobile operating systems and devices designed to enhance your
+                  security and freedom on the internet</h2>
+            </div>
+            <div class="hero__btn-container">
+                <a class="btn--card btn--card-orange" href="#">
+                    <div class="btn--card-heading">Buy $BDUCK</div>
+                    <div class="btn--card-text">Join wait list</div>
+                </a>
+                <a class="btn--card btn--card-gray" href="https://BlackDuck.dev">
+                    <div class="btn--card-heading">View product</div>
+                    <div class="btn--card-text bnt--card-text-gray">Mobile OS Black Duck</div>
+                </a>
+            </div>
+        </div>
+        <div class="hero__scroll" aria-hidden="true">
+          <img
+            src="img/scroll-animation__body.svg" id="scroll-body"
+            loading="lazy" alt="" aria-hidden="true" class="hero__scroll-animation-body">
+          <img
+            src="img/scroll-animation__ball.svg" id="scroll-ball"
+            loading="lazy" alt="" aria-hidden="true" class="hero__scroll-animation-ball">
+          <img
+            src="img/arrow.svg" id="scroll-arrow"
+            loading="lazy" alt="" aria-hidden="true" class="hero__scroll-animation-arrow">
+          </div>
+    </section>
+
+
+    <section class="issues main__issues" id="issues">
+        <div class="issues__inner">
+            <h2 class="issues__h2 issues__animation-from" id="issues__h2">Major Industry <span class="eco__h2--orange">Issues</span></h2>
+            <div class="issues__features issues__animation-from--delay" id="issues__features">
+                <div class="feature">
+                    <div class="feature__text-container">
+                        <div class="feature__h3">01</div>
+                        <img class="feature__pic" width="360" height="255" src="img/issues-001.jpg" alt="censorship">
+                        <div class="feature__h2">Lack of device-level privacy</div>
+                        <div class="feature__text">Lack of privacy is very common in today’s digital world. Major
+                            tech companies like Apple and Google gather vast amounts of personal data without user
+                            consent, posing great risk to your privacy and security.</div>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature__text-container">
+                        <div class="feature__h3">02</div>
+                        <img class="feature__pic" width="360" height="255" src="img/issues-002.jpg" alt="A person holding up a cell phone with multiple eyes on the screen.">
+                        <div class="feature__h2">Cryptocurrencies and gray zone applications</div>
+                        <div class="feature__text">Gaps in data protection also allow industrial espionage and social engineering.</div>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature__text-container">
+                        <div class="feature__h3">03</div>
+                        <img class="feature__pic" width="360" height="255" src="img/issues-003.jpg" alt="Data dealer on a black market">
+                        <div class="feature__h2">Personal data resale</div>
+                        <div class="feature__text">This leads to serious consequences – users face personal
+                            information leaks, financial losses, and even threats to their life. However, the
+                            problem is much more deep-seated than just financial loss and privacy issues.</div>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature__text-container">
+                        <div class="feature__h3">04</div>
+                        <img class="feature__pic" width="360" height="255" src="img/issues-004.jpg" alt="Person holding laptop with bitcoin symbol on screen.">
+                        <div class="feature__h2"> State and corporate censorship</div>
+                        <div class="feature__text">Governments have the power to decide for you what you see and
+                            consume on the internet. They can control your access to certain apps and ban services
+                            that don’t conform to their political narratives. In our opinion, this is due to the
+                            fact that Google and Apple app stores don’t allow blockchain products, dApps and tokens
+                            on their platforms.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner issues__banner banner__animation-from" id="banner">
+              <div class="banner__text-container">
+                <h2 class="banner__h2">SOLUTION!</h2>
+                <h3 class="banner__h3">State and corporate censorship</h3>
+                <p class="banner__text">Black Duck develops mobile operating systems that give users &nbsp;the
+                    right to restrict or completely block unauthorized use of their personal data. The company
+                    believes that everyone deserves &nbsp;to have complete control and freedom over their
+                    personal data. Every mobile device should be free from government and corporate control, and
+                    should have unrestricted access &nbsp;to information on the internet. We use DAO to validate
+                    and publish apps in its app stores. Moreover, it has a native utility token that allows
+                    users in the ecosystem to monetize their data and purchase apps no matter where they come
+                    from.</p>
+              </div>
+            </div>
+            <div class="issues__deco deco">
+              <div class="deco__el"></div>
+              <div class="deco__el"></div>
+              <div class="deco__el"></div>
+              <div class="deco__el"></div>
+              <div class="deco__el"></div>
+
+              <div class="deco__el"></div>
+              <div class="deco__el"></div>
+              <div class="deco__el deco__el--orange"></div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="eco main__eco eco__animation-from" id="eco">
+
+
+      <div class="eco__inner">
+
+        <div class="eco__left">
+          <div class="eco__left-container">
+            <div class="eco__deco deco">
+              <div class="deco__el"></div>
+              <div class="deco__el deco__el--orange"></div>
+            </div>
+
+            <div class="eco__text-container">
+              <h2 class="eco__h2">
+                <span class="eco__h2--orange">Black Duck </span>Ecosystem
+              </h2>
+              <h3 class="eco__h3">Our native token $BDUCK plays a key role in the Black Duck's ecosystem, providing the following utilities:</h3>
+            </div>
+
+            <a class="btn eco__btn" href="#adva">
+                Competitive Advantages
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="eco__cards">
+
+          <div class="card card--icon eco__card">
+            <div class="card__text-container">
+              <h4 class="card__h4">OS</h4>
+              <p class="card__text">Secure OS, open source, data protection</p>
+            </div>
+          </div>
+
+          <div class="card card--icon eco__card card--shifted">
+            <div class="card__text-container">
+              <h4 class="card__h4">DAO</h4>
+              <p class="card__text">The community takes control of the database application ecosystem, determines the conditions for modarization and access of applications to the store</p>
+            </div>
+          </div>
+
+          <div class="card card--icon eco__card">
+            <div class="card__text-container">
+              <div>
+                <h4 class="card__h4">Infrastructure services</h4>
+                <p class="card__h4--caption">(SIM, VPN)</p>
+              </div>
+
+              <p class="card__text">
+                <span class="card__text">Basic services for secure and unlimited access tothe network</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="card eco__card card--icon card--shifted">
+            <div class="card__text-container">
+              <h4 class="card__h4">Applications</h4>
+              <p class="card__text">A family of applications developed taking into account increased requirements for security and anonymity</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="adva main__adva" id="adva">
+      <div class="adva__inner" id="adva__inner">
+
+        <h2 class="adva__h2 adva__animation-from" id="adva__h2">
+          <span class="adva__h2--orange">Competitive</span> Advantages
+        </h2>
+
+        <div class="adva__table table adva__animation-from--delay" id="adva__table">
+
+          <div class="table__head">
+            <div class="table__empty"></div>
+            <button class="table__btn tab" id="tab-btn-solano">Solano Saga</button>
+            <button class="table__btn tab" id="tab-btn-exodus">EXODUS</button>
+            <button class="table__btn table__btn--logo tab tab--current" id="tab-btn-bd">Black Duck</button>
+          </div>
+
+          <div class="table__body">
+            <div class="table__row">
+              <h3 class="table__h3">Support for numerous blockchains</h3>
+              <img src="img/icon--check.svg" width="30" height="30" class="table__img tab-1" alt="Yes">
+              <img src="img/icon--minus.svg" width="30" height="30" class="table__img table__img--gray tab-2 " alt="No">
+              <img src="img/icon--check.svg" width="40" height="40" class="table__img table__img--big tab-3 tab--current" alt="Yes">
+            </div>
+            <div class="table__row">
+              <h3 class="table__h3">Time from purchase to receiving a secure device</h3>
+              <p class="table__p tab-1">Waiting List 1 year</p>
+              <p class="table__p tab-2">Waiting List > 1 year</p>
+              <p class="table__p table__p--big table__p--orange tab-3 tab--current">5 minutes on a clean Google Pixel</p>
+            </div>
+            <div class="table__row">
+              <h3 class="table__h3">Primary app marketplace</h3>
+              <p class="table__p tab-1">Solana Saga</p>
+              <p class="table__p tab-2"> Blockchain-only apps</p>
+              <p class="table__p table__p--big table__p--orange tab-3 tab--current">Wide range of apps, free market with a focus on security</p>
+            </div>
+            <div class="table__row">
+              <h3 class="table__h3">Device specs</h3>
+              <p class="table__p tab-1">Midrange</p>
+              <p class="table__p tab-2">Older midrange </p>
+              <p class="table__p table__p--big table__p--orange tab-3 tab--current">Flagships</p>
+            </div>
+            <div class="table__row">
+              <h3 class="table__h3">Quick installation from phone to phone</h3>
+              <img src="img/icon--minus.svg" width="30" height="30" class="table__img table__img--gray tab-1" alt="No">
+              <img src="img/icon--minus.svg" width="30" height="30" class="table__img table__img--gray tab-2" alt="No">
+              <img src="img/icon--check.svg" width="40" height="40" class="table__img table__img--big tab-3 tab--current" alt="Yes">
+            </div>
+            <div class="table__row">
+              <h3 class="table__h3">Plug and Play (automated process)</h3>
+              <img src="img/icon--minus.svg" width="30" height="30" class="table__img table__img--gray tab-1" alt="No">
+              <img src="img/icon--minus.svg" width="30" height="30" class="table__img table__img--gray tab-2" alt="No">
+              <img src="img/icon--check.svg" width="40" height="40" class="table__img table__img--big tab-3 tab--current" alt="Yes">
+            </div>
+          </div>
+        </div>
+
+        <div class="adva__deco deco">
+          <div class="deco__el deco__el--empty"></div>
+          <div class="deco__el deco__el--empty"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el deco__el--orange"></div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="toke main__toke toke__animation-from" id="tokenomics">
+      <div class="toke__inner" id="toke__inner">
+          <h2 class="toke__h2">Tokenomics</h2>
+          <img
+              src="img/chart.png"
+              loading="lazy" width="1370"
+              sizes="(max-width: 479px) 100vw, (max-width: 767px) 587px, (max-width: 991px) 77vw, (max-width: 1279px) 80vw, (max-width: 1439px) 82vw, (max-width: 1919px) 77vw, 1370px"
+              alt=""
+              srcset="img/chart-p-500.png 500w, img/chart-p-800.png 800w, img/chart-p-1080.png 1080w, img/chart-p-1600.png 1600w, img/chart-p-2000.png 2000w, img/chart-p-2600.png 2600w, img/chart.png 2740w"
+              class="toke__chart toke__chart--desktop">
+          <img src="img/chart--mobile@2x.png"
+              loading="lazy"
+              sizes="(max-width: 479px) 100vw"
+              alt=""
+              srcset="img/chart--mobile-p-500.png 500w, img/chart--mobile-p-800.png 800w, img/chart--mobile.png 1260w"
+              class="toke__chart toke__chart--mobile">
+          <div class="toke__captions">
+              <div class="toke__caption">
+                  <div class="toke__heading">
+                      <div class="toke__heading toke__heading"><span class="toke__heading--gray">1. </span><span
+                              class="toke__heading--orange">9%</span></div>
+                  </div>
+                  <div class="toke__caption-text">Treasury</div>
+              </div>
+              <div class="toke__caption">
+                  <div class="toke__heading">
+                      <div class="toke__heading toke__heading"><span class="toke__heading--gray">2. </span><span
+                              class="toke__heading--orange">13%</span></div>
+                  </div>
+                  <div class="toke__caption-text">Liquidity: DEX, CEX</div>
+              </div>
+              <div class="toke__caption">
+                  <div class="toke__heading-4">
+                      <div class="toke__heading-4 toke__heading-4"><span class="toke__heading--gray">3.
+                          </span><span class="toke__heading--orange">33%</span></div>
+                  </div>
+                  <div class="toke__caption-text">Marketing &amp; Ecosystem</div>
+              </div>
+              <div class="toke__caption">
+                  <div class="toke__heading-6">
+                      <div class="toke__heading-6 toke__heading-6"><span
+                              class="toke__heading--gray">4.</span><span class="toke__heading--orange"> 9%</span>
+                      </div>
+                  </div>
+                  <div class="toke__caption-text">Presale</div>
+              </div>
+              <div class="toke__caption">
+                  <div class="toke__heading-8">
+                      <div class="toke__heading-8 toke__heading-8"><span
+                              class="toke__heading--gray">5.</span><span class="toke__heading--orange"> 9%</span>
+                      </div>
+                  </div>
+                  <div class="toke__caption-text">Team &amp; Advisors</div>
+              </div>
+              <div class="toke__caption">
+                  <div class="toke__heading-11">
+                      <div class="toke__heading-11 toke__heading-11"><span
+                              class="toke__heading--gray">6.</span><span class="toke__heading--orange"> 3%</span>
+                      </div>
+                  </div>
+                  <div class="toke__caption-text">KOL</div>
+              </div>
+              <div class="toke__caption">
+                  <div class="toke__heading-11">
+                      <div class="toke__heading-11 toke__heading-11"><span
+                              class="toke__heading--gray">7.</span><span class="toke__heading--orange"> 3%</span>
+                      </div>
+                  </div>
+                  <div class="toke__caption-text">IDO</div>
+              </div>
+              <div class="toke__caption">
+                  <div class="toke__heading-11">
+                      <div class="toke__heading-11 toke__heading-11"><span
+                              class="toke__heading--gray">8.</span><span class="toke__heading--orange"> 21%</span>
+                      </div>
+                  </div>
+                  <div class="toke__caption-text">Strategic<br>(VC &amp; Angels)<br></div>
+              </div>
+          </div>
+
+          <div class="toke__deco deco">
+            <div class="deco__el"></div>
+            <div class="deco__el"></div>
+            <div class="deco__el"></div>
+            <div class="deco__el"></div>
+            <div class="deco__el"></div>
+
+            <div class="deco__el deco__el--orange"></div>
+          </div>
+
+
+      </div>
+    </section>
+
+
+    <section class="feed main__feed" id="feed">
+        <div class="feed__inner" id="feed__inner">
+          <div class="feed__h2-wrapper">
+            <h2 class="feed__h2 feed__animation-from" id="feed__h2">
+              <span class="feed__h2--orange">News</span> Feed
+            </h2>
+            <div class="feed__deco deco">
+              <div class="deco__el"></div>
+              <div class="deco__el"></div>
+              <div class="deco__el"></div>
+              <div class="deco__el deco__el--orange"></div>
+            </div>
+          </div>
+
+          <div class="feed__slider swiper feed__animation-from--delay" id="feed__slider">
+
+            <div class="swiper-wrapper">
+
+              <div class="feed__slide feed__slide--icon-nochangecolor swiper-slide" id="feed-slide-001">
+                <h3 class="feed__h3">The Hidden Dangers of Public Wi-Fi</h3>
+                <p class="feed__text">Public Wi-Fi networks are notorious for being insecure, making your data vulnerable to interception.
+                  <br /><br />
+                  Black Duck OS uses MAC randomization for each connection, ensuring your device remains anonymous and secure on any network.</p>
+                <p class="feed__time">4:45 PM · Jun 9, 2024</p>
+              </div>
+
+              <div class="feed__slide swiper-slide" id="feed-slide-002">
+                <h3 class="feed__h3">915,000 U.S. children were victims of fraud</h3>
+                <div class="feed__text">915,000 U.S. children were victims of identity fraud in the past year, costing an average of:
+                  <br /><br />
+                  $1,128 for a single household
+                  $752 for the fraud itself
+                  $376 out-of-pocket to resolve the fraud — while spending 16 hours on resolution overall.</div>
+                <div class="feed__time">5:06 PM · Jun 4, 2024</div>
+              </div>
+
+              <div class="feed__slide swiper-slide" id="feed-slide-003">
+                <h3 class="feed__h3">Three Ways to Instantly Wipe Data</h3>
+                <div class="feed__text">Need to ensure your data can be erased quickly and securely? Black Duck OS offers three methods to wipe data beyond recovery: fast wipe via the power button, custom wipe via type-C cable, and remote wipe from a portal.
+                  <br /><br />
+                  Your data, your control.</div>
+                <div class="feed__time">7:27 PM · Jun 3, 2024</div>
+              </div>
+
+              <div class="feed__slide swiper-slide" id="feed-slide-004">
+                <h3 class="feed__h3">Every 39 sec a cyber attack happens</h3>
+                <div class="feed__text">Cybersecurity statistics indicate that there are 2,200 cyber attacks per day, with a cyber attack happening every 39 seconds on average.
+                  <br /><br />
+                  Every 39 seconds? Nice try!
+                  Black Duck works every second to keep you secured.</div>
+                <div class="feed__time">11:28 PM · Jun 1, 2024</div>
+              </div>
+
+              <div class="feed__slide swiper-slide" id="feed-slide-005">
+                <h3 class="feed__h3">Over 1.76 billion records leaked</h3>
+                <div class="feed__text">Over 1.76 billion records were leaked in January 2020 alone.
+
+                  Black Duck OS helps you keep your data secure. This alarming statistic from Risk Based Security shows the importance of data protection.
+                  <a class="feed__link" href="https://t.me/b_duck_official">Read more</a>
+                  </div>
+                <div class="feed__time">11:28 PM · Jun 1, 2024</div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="feed__arrows">
+            <button class="feed__arrow feed__arrow--prev btn--slider btn--slider--prev"></button>
+            <button class="feed__arrow feed__arrow--next btn--slider btn--slider--next"></button>
+          </div>
+
+        </div>
+    </section>
+
+
+    <section class="banner-cta main__banner-cta banner-cta__animation-from" id="banner-cta">
+      <div class="banner-cta__inner">
+        <h2 class="banner-cta--h2">$BDUCK</h2>
+        <div class="banner-cta__btns">
+          <a href="#" target="_blank" class="banner-cta__btn btn--card btn--card-orange">
+            <h3 class="btn--card-heading">Buy $BDUCK</h3>
+            <p class="btn--card-text">Black Duck token is available</p>
+          </a>
+          <a href="#" target="_blank" class="banner-cta__btn btn--card btn--card-orange">
+            <h3 class="btn--card-heading">View product</h3>
+            <p class="btn--card-text">Mobile OS Black Duck</p>
+          </a>
+        </div>
+
+
+        <div class="banner-cta__deco deco">
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el deco__el--orange"></div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <section class="roadmap main__roadmap" id="roadmap">
+      <div class="roadmap__inner" id="roadmap__inner">
+        <h2 class="roadmap__h2 roadmap__animation-from" id="roadmap__h2">
+          <span class="roadmap__h2--orange">Road </span> Map
+        </h2>
+        <div class="roadmap__wrapper roadmap__animation-from--delay" id="roadmap__wrapper">
+          <div class="roadmap__row">
+              <h3 class="roadmap__year">2015–2017</h3>
+              <div class="roadmap__text-content">
+                  <h4 class="roadmap__h4">Research and Creation of Product Philosophy</h4>
+                  <p class="roadmap__text">Research on what makes a secure smartphone actually
+                      secure.<br>‍<br>Survey existing services and technologies in the field of mobile device
+                      security in the market.<br><br>Work with focus groups. Cost-dev.</p>
+              </div>
+              <p class="roadmap__status">Complete</p>
+              <button class="roadmap__btn">Show</button>
+          </div>
+          <div class="roadmap__row">
+            <h3 class="roadmap__year">2017-2020</h3>
+            <div class="roadmap__text-content">
+              <h4 class="roadmap__h4">Architecture Development</h4>
+              <p class="roadmap__text">Develop a business model and legal structure.<br><br>Design the
+                  architecture of our secure operating system.<br><br>Develop and implement access control
+                  and threat detection mechanisms.</p>
+            </div>
+            <p class="roadmap__status">Complete</p>
+            <button class="roadmap__btn">Show</button>
+          </div>
+          <div class="roadmap__row">
+            <h3 class="roadmap__year">2020-2022</h3>
+            <div class="roadmap__text-content">
+              <h4 class="roadmap__h4">Operating System Kernel Development</h4>
+              <p class="roadmap__text">Configure and customize the Android kernel for security
+                  purposes.<br><br>Integrate monitoring and auditing tools to ensure kernel
+                  security.<br><br>Build our own data center.</p>
+            </div>
+            <p class="roadmap__status">Complete</p>
+            <button class="roadmap__btn">Show</button>
+          </div>
+
+          <div class="roadmap__row roadmap__row--now">
+            <h3 class="roadmap__year">2022-2024</h3>
+            <div class="roadmap__text-content">
+              <h4 class="roadmap__h4">Development of Secure Applications, Launch of First OS Version</h4>
+              <p class="roadmap__text">Conduct vulnerability testing and security audits of
+                  apps.<br><br>Launch the first OS version for sale.</p>
+            </div>
+            <p class="roadmap__status">We are here</p>
+            <button class="roadmap__btn">Show</button>
+          </div>
+
+          <div class="roadmap__row roadmap__row--soon">
+            <h3 class="roadmap__year roadmap__year--soon">Q1-Q2/2024</h3>
+            <div class="roadmap__text-content">
+              <h4 class="roadmap__h4">Release of Black Duck OS and Token Launch</h4>
+              <p class="roadmap__text">Launch the user's dashboard with a wallet, tariff plan management
+                  system, eSIM, and referral program.<br><br>Create and launch a new version of the
+                  operating system adapted for Web3 and dApps.<br><br>Announce our native utility token.
+              </p>
+            </div>
+            <p class="roadmap__status roadmap__status--soon">Coming soon</p>
+            <button class="roadmap__btn">Show</button>
+          </div>
+
+          <div class="roadmap__row roadmap__row--soon">
+            <h3 class="roadmap__year roadmap__year--soon">Q2-Q4/2024</h3>
+            <div class="roadmap__text-content">
+              <h4 class="roadmap__h4">Device Launch and IDO</h4>
+              <p class="roadmap__text">Development of our own mobile device (blockchain
+                  terminal).<br><br>IDO and token listings.<br><br>Release of new OS versions.</p>
+            </div>
+            <p class="roadmap__status roadmap__status--soon">Coming soon</p>
+            <button class="roadmap__btn">Show</button>
+          </div>
+        </div>
+
+        <div class="roadmap__deco deco">
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el deco__el--orange"></div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="team main__team" id="team">
+        <div class="team__inner" id="team__inner">
+
+          <div class="team__h2-wrapper">
+
+            <h2 class="team__h2  team__animation-from" id="team__h2">
+              <span class="team__h2--orange">Professional </span>Team
+            </h2>
+
+            <div class="team__deco deco">
+              <div class="deco__el"></div>
+              <div class="deco__el"></div>
+              <div class="deco__el"></div>
+              <div class="deco__el"></div>
+              <div class="deco__el"></div>
+
+              <div class="deco__el deco__el--empty"></div>
+              <div class="deco__el deco__el--empty"></div>
+              <div class="deco__el deco__el--empty"></div>
+              <div class="deco__el deco__el--orange"></div>
+              <div class="deco__el"></div>
+            </div>
+
+          </div>
+
+            <div class="team__slider swiper team__animation-from--delay" id="team__slider">
+
+              <div class="swiper-wrapper">
+
+                <div class="team__slide swiper-slide">
+                  <img src="img/team__ava1.jpg" loading="lazy" width="135" height="135" alt="Jamie Duffy" aria-hidden="true" class="team__ava">
+                  <div class="team__text-container">
+                    <h3 class="team__name">Jamie Duffy</h3>
+                    <p class="team__post">CMO Black Duck</p>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="team__slider-arrows">
+              <button class="team__slider-arrow team__slider-arrow--prev btn--slider btn--slider--prev"></button>
+              <button class="team__slider-arrow team__slider-arrow--next btn--slider btn--slider--next"></button>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="faq main__faq" id="faq">
+      <div class="faq__inner" id="faq__inner">
+        <h2 class="faq__h2 faq__animation-from" id="faq__h2">
+          <span class="faq__h2--orange">Frequently</span> Asked Questions
+        </h2>
+        <div class="faq__accordions faq__animation-from--delay" id="faq__accordions">
+          <div class="faq__left">
+
+            <div class="accordion faq__accordion">
+              <button class="accordion__btn" aria-label="Show answer" aria-expanded="false" aria-controls="answer-001">Saving time for the client</button>
+              <div class="accordion__panel">
+                <p class="accordion__text" id="answer-001">Having FAQ pages ensures that customers don't have to call the
+                  company waiting for answers, and employees don't have to tell the same thing every time.
+                  &nbsp;If you spend a lot of time answering emails or social media queries, having prepared
+                  answers to frequently asked questions can save you effort. This can not only improve
+                  customer relationships, but also reduce some of the workload on the call center.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion faq__accordion">
+              <button class="accordion__btn" aria-label="Show answer" aria-expanded="false" aria-controls="answer-002">Preventing the Clip Thinking Effect</button>
+              <div class="accordion__panel">
+                <p class="accordion__text" id="answer-002">Having FAQ pages ensures that customers don't have to call the
+                  company waiting for answers, and employees don't have to tell the same thing every time.
+                  &nbsp;If you spend a lot of time answering emails or social media queries, having prepared
+                  answers to frequently asked questions can save you effort. This can not only improve
+                  customer relationships, but also reduce some of the workload on the call center.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion faq__accordion">
+              <button class="accordion__btn" aria-label="Show answer" aria-expanded="false" aria-controls="answer-003">Maintaining trust</button>
+              <div class="accordion__panel">
+                <p class="accordion__text" id="answer-003">Having FAQ pages ensures that customers don't have to call the
+                  company waiting for answers, and employees don't have to tell the same thing every time.
+                  &nbsp;If you spend a lot of time answering emails or social media queries, having prepared
+                  answers to frequently asked questions can save you effort. This can not only improve
+                  customer relationships, but also reduce some of the workload on the call center.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="faq__right">
+            <div class="accordion faq__accordion">
+              <button class="accordion__btn" aria-label="Show answer" aria-expanded="false" aria-controls="answer-004">Generating new ideas</button>
+              <div class="accordion__panel">
+                <p class="accordion__text" id="answer-004">Having FAQ pages ensures that customers don't have to call the
+                  company waiting for answers, and employees don't have to tell the same thing every time.
+                  &nbsp;If you spend a lot of time answering emails or social media queries, having prepared
+                  answers to frequently asked questions can save you effort. This can not only improve
+                  customer relationships, but also reduce some of the workload on the call center.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion faq__accordion">
+              <button class="accordion__btn" aria-label="Show answer" aria-expanded="false" aria-controls="answer-005">Increasing internal page views</button>
+              <div class="accordion__panel">
+                <p class="accordion__text" id="answer-005">Having FAQ pages ensures that customers don't have to call the
+                  company waiting for answers, and employees don't have to tell the same thing every time.
+                  &nbsp;If you spend a lot of time answering emails or social media queries, having prepared
+                  answers to frequently asked questions can save you effort. This can not only improve
+                  customer relationships, but also reduce some of the workload on the call center.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion faq__accordion">
+              <button class="accordion__btn" aria-label="Show answer" aria-expanded="false" aria-controls="answer-006">Reducing the number of negative reviews</button>
+              <div class="accordion__panel">
+                <p class="accordion__text" id="answer-006">Having FAQ pages ensures that customers don't have to call the
+                  company waiting for answers, and employees don't have to tell the same thing every time.
+                  &nbsp;If you spend a lot of time answering emails or social media queries, having prepared
+                  answers to frequently asked questions can save you effort. This can not only improve
+                  customer relationships, but also reduce some of the workload on the call center.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="faq__deco deco">
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el deco__el--orange"></div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <section class="partners main__partners" id="partners">
+      <div class="partners__inner" id="partners__inner">
+        <h2 class="partners__h2 partners__animation-from" id="partners__h2">
+          <span class="partners__h2--orange">Backers</span>  &amp; Partners</span>
+        </h2>
+        <div class="partners__logos partners__animation-from--delay" id="partners__logos">
+          <img src="img/partner--bcs.png" srcset="img/partner--bcs.png, img/partner--bcs@2x.png 2x" class="partners__logo partners__logo--bcs" loading="lazy" width="240" height="120" alt="BCS consulting" class="partners__logo">
+          <img src="img/partner--fibonacci.svg" class="partners__logo partners__logo--fibonacci" loading="lazy" width="240" height="120" alt="Fibonacci Market Maker" class="partners__logo">
+
+        </div>
+
+        <div class="partners__deco deco">
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+
+          <div class="deco__el deco__el--empty"></div>
+          <div class="deco__el deco__el--orange"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <section class="banner-cta main__banner-cta banner-cta__animation-from" id="banner-cta">
+      <div class="banner-cta__inner">
+        <h2 class="banner-cta--h2">$BDUCK</h2>
+        <div class="banner-cta__btns">
+          <a href="#" target="_blank" class="banner-cta__btn btn--card btn--card-orange">
+            <h3 class="btn--card-heading">Buy $BDUCK</h3>
+            <p class="btn--card-text">Black Duck token is available</p>
+          </a>
+          <a href="#" target="_blank" class="banner-cta__btn btn--card btn--card-orange">
+            <h3 class="btn--card-heading">View product</h3>
+            <p class="btn--card-text">Mobile OS Black Duck</p>
+          </a>
+        </div>
+
+
+        <div class="banner-cta__deco deco">
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el"></div>
+          <div class="deco__el deco__el--orange"></div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+  </main>
+
+
+
+  <footer class="footer body__footer" id="footer">
+    <div class="footer__inner">
+        <div id="footer__logo" class="footer__logo">
+          <img src="img/logo.svg" loading="lazy" width="66" alt="" class="footer__logo-img">
+            <h2 class="footer__logo-text">Black Duck</h2>
+        </div>
+        <p id="footer__description" class="footer__description">Mobile operating system with the highest level of cryptography for your security, anonymity and de-Google lifestyle</p>
+        <div id="footer__support" class="footer__support">
+            <p class="footer__time">Support 24/7</p><a href="mailto:info@blackduckos.com"
+                class="footer__email">info@blackduckos.com</a>
+        </div>
+        <ul id="footer__links" class="footer__links">
+          <li><a href="#tokenomics" class="footer__link">Tokenomics</a></li>
+          <li><a href="#roadmap" class="footer__link">Road map</a></li>
+          <li><a href="#team" class="footer__link">Team</a></li>
+          <li><a href="#faq" class="footer__link">Faq</a></li>
+          <li><a href="#footer" class="footer__link">Contacts</a></li>
+          <li><a href="#" class="footer__link footer__link--orange">Buy $BDUCK</a></li>
+        </ul>
+
+        <div id="footer__socials" class="footer__socials socials">
+          <a href="https://t.me/b_duck_chat" target="_blank" class="socials__social-link socials__social-link--telegram-channel">
+            <span class="visually-hidden">Telegram Channel</span>
+          </a>
+
+          <a href="https://t.me/blackduckchat" target="_blank" class="socials__social-link socials__social-link--telegram">
+            <span class="visually-hidden">Telegram Chat</span>
+          </a>
+
+          <a href="https://x.com/BlackDuckOS" target="_blank" class="socials__social-link socials__social-link--x">
+            <span class="visually-hidden">X social network</span>
+          </a>
+
+          <a href="https://www.linkedin.com/company/black-duck-os/"  target="_blank" class="socials__social-link socials__social-link--linkedin">
+            <span class="visually-hidden">LinkedIn</span>
+          </a>
+        </div>
+
+        <div id="footer__links--secondary" class="footer__links--secondary">
+          <a href="#body" class="footer__link--secondary">Privacy policy</a>
+          <a href="#body" class="footer__link--secondary">Terms of conditions</a>
+        </div>
+
+        <div id="footer__divider" class="footer__divider"></div>
+
+        <p id="footer__copyright" class="footer__copyright">© 2024. Black Duck</p>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/script.js"></script>
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script type="text/javascript" src="js/anim.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js/slider.js"></script>
+
+
+</body>
+
+</html>
